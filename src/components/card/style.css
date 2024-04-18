@@ -1,0 +1,28 @@
+.card {
+    width: 30%;
+}
+
+.card>p {
+    background-color: #F9FAFB;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.profile-info img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width:786px) {
+    .card {
+        width: 100%;
+
+    }
+}

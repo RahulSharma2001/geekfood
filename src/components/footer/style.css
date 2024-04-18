@@ -1,0 +1,43 @@
+.footer {
+    background-color: #F3F4F6;
+}
+
+.footer-container {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 64px 32px;
+
+}
+
+.footer-container>p {
+    max-width: 48%;
+    margin: 32px auto;
+    color: #6B7280;
+
+}
+
+.footer-logo {
+    height: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-list-logos>.footer-item,
+svg {
+    list-style-type: none;
+    height: 1.6rem;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #6B7280;
+}
