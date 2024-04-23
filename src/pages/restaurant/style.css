@@ -1,0 +1,90 @@
+.res-container {
+    padding: 120px;
+}
+
+.sf {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.sf>input,
+label {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px;
+
+
+}
+
+.sf>label>input {
+    width: 50px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.res-card {
+    position: relative;
+    border: 1px solid black;
+    width: 379px;
+    padding: 16px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.rating {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: gold;
+
+}
+
+.rating>h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.res-card>p {
+    color: grey;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+
+}
+
+.svg {
+    margin: 0 10px 0 0;
+
+}
+
+.below {
+    background-color: #F3F4F6;
+    padding: 16px;
+
+
+}
+
+.below p {
+    margin: 0;
+}
+
+.type {
+    color: #22C55E;
+    margin: 0 10px 0 0;
+    font-size: 1.2rem;
+
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

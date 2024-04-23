@@ -22,7 +22,9 @@ const Navbar = () => {
           <div className="item">
             <NavLink to="/quotes">Quote</NavLink>
           </div>
-          <div className="item">Resturants</div>
+          <div className="item">
+            <NavLink to="/restaurant">Resturants</NavLink>
+          </div>
           <div className="item">Food</div>
           <div className="item">Contact</div>
         </div>
