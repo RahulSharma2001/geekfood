@@ -44,13 +44,13 @@ const Restaurant = () => {
       <div className="restaurant-container">
         {filteredDatas.map((res) => (
           <RestaurantCard
+            key={res._id.$oidd}
             name={res.name}
             url={res.URL}
             address={res.address}
             outcode={res.outcode}
             postcode={res.postcode}
             rating={res.rating}
-            key={res._id}
             type_of_food={res.type_of_food}
           />
         ))}

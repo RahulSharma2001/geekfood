@@ -19,7 +19,7 @@ const RestaurantCard = ({
         <svg
           className="svg"
           fill="black"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 384 512"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -37,7 +37,7 @@ const RestaurantCard = ({
             className="svg"
             stroke="#22C55E"
             fill="#22C55E"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 416 512"
             xmlns="http://www.w3.org/2000/svg"
           >
